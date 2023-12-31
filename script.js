@@ -23,3 +23,8 @@ function lastLetter(str) {
     return str.slice(-1);
 }
 console.log(lastLetter("Hello, World!"))
+
+function pow(x,n) {
+    return x ** n
+}
+console.log(pow(3,3));
